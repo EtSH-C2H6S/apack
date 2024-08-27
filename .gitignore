@@ -24,8 +24,18 @@ run
 # Files from Forge MDK
 forge*changelog.txt
 
-config/blockswap
-config/inventoryprofilesnext
+/config/blockswap
+/config/inventoryprofilesnext
+/config/oculus.properties
+/config/patchouli-client.toml
+/config/oculus.properties
+/config/powah.json5
+/config/xaerominimap.txt
+/config/xaeroworldmap.txt
+/config/jei/
+/config/oculus.properties
+/config/xaerominimap_entities.json
+/config/powah.json5
 /resourcepacks
 /logs
 /PCL
@@ -49,15 +59,4 @@ rhino.local.properties
 user*
 tic4.jar
 tic4.json
-config/oculus.properties
-config/patchouli-client.toml
-config/xaerominimap_entities.json
-config/oculus.properties
-config/powah.json5
-config/xaerominimap.txt
-config/xaerominimap_entities.json
-config/xaeroworldmap.txt
 options.txt
-config/jei
-config/oculus.properties
-config/xaerominimap_entities.json
