@@ -62,4 +62,5 @@ config/jei
 config/oculus.properties
 config/xaerominimap_entities.json
 CTI.jar
+abs.jar
 CTI.json
