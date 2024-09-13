@@ -24,22 +24,11 @@ run
 # Files from Forge MDK
 forge*changelog.txt
 
-/config/blockswap
-/config/inventoryprofilesnext
-/config/oculus.properties
-/config/patchouli-client.toml
-/config/oculus.properties
-/config/powah.json5
-/config/xaerominimap.txt
-/config/xaeroworldmap.txt
-/config/jei/
-/config/oculus.properties
-/config/xaerominimap_entities.json
-/config/powah.json5
-/resourcepacks
+/config
 /logs
 /PCL
 /saves
+/resourcepacks
 /shaderpacks
 /screenshots
 /ct-natives
