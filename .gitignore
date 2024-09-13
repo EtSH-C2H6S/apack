@@ -23,8 +23,6 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
-
-/config
 /logs
 /PCL
 /saves
@@ -41,29 +39,16 @@ forge*changelog.txt
 /pachouli_books
 /thingpacks
 /Xaero*
+/modernfix
 ct.*
 enigmatic_persistence.*
 patchouli_data.json
 rhino.local.properties
+/config
 user*
 tic4.jar
 tic4.json
-<<<<<<< HEAD
 options.txt
-=======
-config/oculus.properties
-config/patchouli-client.toml
-config/xaerominimap_entities.json
-config/oculus.properties
-config/powah.json5
-config/xaerominimap.txt
-config/xaerominimap_entities.json
-config/xaeroworldmap.txt
-options.txt
-config/jei
-config/oculus.properties
-config/xaerominimap_entities.json
 CTI.jar
 abs.jar
 CTI.json
->>>>>>> 6d3cf97caf3894226b8f5e61ecd996c05fdccb0a
