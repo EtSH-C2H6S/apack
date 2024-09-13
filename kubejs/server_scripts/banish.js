@@ -27,6 +27,7 @@ ServerEvents.recipes(event => {
 	event.remove([{mod: 'ad_astra', output: 'ad_astra:steel_ingot' }])
 	//pnt
 	event.remove([{mod: 'thermal', output: 'thermal:phyto_tnt' }])
+	event.remove([{mod: 'createoreexcavation', output: 'createoreexcavation:vein_finder' }])
 	//meka套
 	let meka =[
 		'mekanism:mekasuit_helmet',
@@ -85,5 +86,10 @@ ServerEvents.recipes(event => {
 	event.remove([{mod: 'dreadsteel', output: 'dreadsteel:dreadsteel_ingot' }])
 	//三一默认配方
 	event.remove([{mod: 'etshtinker', output: 'etshtinker:trinity_intereactive_alloy' }])
+	//神晶AE配方
+	event.remove({ id: 'etshtinker:ae2/soakwater/blood_certus' })
+	event.remove({ id: 'etshtinker:ae2/soakwater/soul_fluix' })
+	//硫化橡胶熔炉配方
+	event.remove({ id: 'thermal:smelting/cured_rubber_from_smelting' })
 }
 )

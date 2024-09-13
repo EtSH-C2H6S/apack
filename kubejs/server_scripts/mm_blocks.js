@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
   ],
   {
     A: 'etshtinker:ultra_dense',
-    B: 'powah:energizing_rod_nitro',
+    B: 'createaddition:tesla_coil',
     C: 'ae2:charger',
     D: 'immersiveengineering:graphite_electrode'
   })
@@ -92,6 +92,17 @@ ServerEvents.recipes(event => {
       C: 'thermal:machine_centrifuge',
       D: 'powah:dry_ice',
       E: 'kubejs:zirconium_alloy'
+    })
+    //同位素温差发电机
+    event.shaped(Item.of('mm:isotrope_thermoelectric_generator',1), [
+      'AAA',
+      'BCB',
+      'AAA'
+    ],
+    {
+      A: 'etshtinker:activated_chroma_plate',
+      B: 'thermal:energy_cell',
+      C: 'thermal:dynamo_magmatic',
     })
 
   //钢接口
